@@ -72,8 +72,9 @@
       <option name="auto-commit" value="true" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
       <library>
-        <url>file:///opt/vertica8.1/vertica/java/vertica-jdbc-8.1.1-7.jar</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/vertica8.1/vertica/java/vertica-jdbc-8.1.1-7.jar</url>
       </library>
     </driver>
     <driver id="db2.jtopen">
