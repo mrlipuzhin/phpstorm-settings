@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="30ca8c96-9698-4bf7-a6a9-abe783405463" name="t-alipuzhin.olymptrade.com" url="http://t-alipuzhin.olymptrade.com">
+        <fileTransfer host="t-alipuzhin.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/alipuzhin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="be6aab0e-d3fb-40a3-83d4-c525f1098618" name="platform-a-l-9b06-1.olymptrade.com" url="http://platform-a-l-9b06-1.olymptrade.com">
+        <fileTransfer host="platform-a-l-9b06-1.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/1" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="74c94508-5cf7-4f1a-aabb-87b7b040a455" name="lux" url="http://t-alipuzhin.olymptrade.com">
+        <fileTransfer host="t-alipuzhin.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
