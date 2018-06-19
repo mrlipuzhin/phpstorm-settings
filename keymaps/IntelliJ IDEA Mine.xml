@@ -1,0 +1,24 @@
+<keymap version="1" name="IntelliJ IDEA Mine" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl decimal" />
+  </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="control button3" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt pause" />
+  </action>
+</keymap>
