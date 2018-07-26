@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
