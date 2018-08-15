@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="realsync" type="PLAIN_TEXT" />
+      <mapping pattern="all-payment-systems" type="JSON" />
       <mapping pattern=".realsync" type="PLAIN_TEXT" />
+      <mapping pattern="realsync" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
