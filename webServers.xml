@@ -33,14 +33,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="d0ca2341-bd61-4929-a8fb-3975069d466c" name="olymp.local" url="https://olymp.local">
-        <fileTransfer host="olymp.local" port="2222" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="2222" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
