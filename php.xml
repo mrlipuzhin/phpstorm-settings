@@ -208,18 +208,11 @@
             <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="redis.arrays.autorehash" value="" />
-            <configuration_option name="redis.arrays.connecttimeout" value="" />
-            <configuration_option name="redis.arrays.distributor" value="" />
             <configuration_option name="redis.arrays.functions" value="" />
             <configuration_option name="redis.arrays.hosts" value="" />
             <configuration_option name="redis.arrays.index" value="" />
-            <configuration_option name="redis.arrays.lazyconnect" value="" />
             <configuration_option name="redis.arrays.names" value="" />
-            <configuration_option name="redis.arrays.pconnect" value="" />
             <configuration_option name="redis.arrays.previous" value="" />
-            <configuration_option name="redis.arrays.readtimeout" value="" />
-            <configuration_option name="redis.arrays.retryinterval" value="" />
-            <configuration_option name="redis.clusters.persistent" value="" />
             <configuration_option name="redis.clusters.read_timeout" value="" />
             <configuration_option name="redis.clusters.seeds" value="" />
             <configuration_option name="redis.clusters.timeout" value="" />
