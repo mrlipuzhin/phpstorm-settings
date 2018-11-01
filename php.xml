@@ -7,7 +7,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/Cellar/php@7.0/7.0.30_1/bin/php" id="d3350a1e-d9c2-40c1-a0e3-7cf7efa86fc5" name="PHP 7" debugger_id="php.debugger.XDebug" debugger_extension="/usr/lib/php/20151012/xdebug.so" />
+      <interpreter home="/usr/local/Cellar/php@7.0/7.0.30_1/bin/php" id="d3350a1e-d9c2-40c1-a0e3-7cf7efa86fc5" name="PHP 7" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/pecl/20151012/xdebug.so" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -82,7 +82,6 @@
             <configuration_option name="iconv.input_encoding" value="" />
             <configuration_option name="iconv.internal_encoding" value="" />
             <configuration_option name="iconv.output_encoding" value="" />
-            <configuration_option name="igbinary.compact_strings" value="1" />
             <configuration_option name="ignore_repeated_errors" value="" />
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
@@ -174,15 +173,6 @@
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
-            <configuration_option name="redis.arrays.autorehash" value="" />
-            <configuration_option name="redis.arrays.functions" value="" />
-            <configuration_option name="redis.arrays.hosts" value="" />
-            <configuration_option name="redis.arrays.index" value="" />
-            <configuration_option name="redis.arrays.names" value="" />
-            <configuration_option name="redis.arrays.previous" value="" />
-            <configuration_option name="redis.clusters.read_timeout" value="" />
-            <configuration_option name="redis.clusters.seeds" value="" />
-            <configuration_option name="redis.clusters.timeout" value="" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
             <configuration_option name="report_zend_debug" value="0" />
@@ -347,7 +337,6 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="igbinary" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -369,7 +358,6 @@
             <extension name="posix" />
             <extension name="pspell" />
             <extension name="readline" />
-            <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
