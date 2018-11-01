@@ -5,6 +5,7 @@
       <mapping pattern=".profile" type="PLAIN_TEXT" />
       <mapping pattern=".realsync" type="PLAIN_TEXT" />
       <mapping pattern="realsync" type="PLAIN_TEXT" />
+      <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="old_phones" type="PLAIN_TEXT" />
       <mapping ext="realsync" type="PLAIN_TEXT" />
       <mapping ext="ctmpl" type="PLAIN_TEXT" />
