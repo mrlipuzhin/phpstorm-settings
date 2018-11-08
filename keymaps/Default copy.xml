@@ -8,7 +8,7 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
-  <action id="VCS.Deployment.Upload">
-    <keyboard-shortcut first-keystroke="ctrl meta back_slash" />
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
 </keymap>
