@@ -1,6 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="60dcac72-a703-49bc-b887-40c27fc19f81" name="devbox" url="http://olymp.local">
+        <fileTransfer host="olymp.local" port="2222" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="86b90d87-5381-4ceb-bf9a-cd672ca90e24" name="devbox-root" url="http://olymp.local">
+        <fileTransfer host="olymp.local" port="2222" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="30ca8c96-9698-4bf7-a6a9-abe783405463" name="t-alipuzhin.olymptrade.com" url="http://t-alipuzhin.olymptrade.com">
         <fileTransfer host="t-alipuzhin.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/alipuzhin" accessType="SFTP" keyPair="true">
           <advancedOptions>
