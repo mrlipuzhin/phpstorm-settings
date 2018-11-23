@@ -49,6 +49,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="8d0a5ccf-9b90-4eb2-ad0f-acd99fed9756" name="platform-a-l-9b06-2.olymptrade.com" url="http://platform-a-l-9b06-2.olymptrade.com">
+        <fileTransfer host="platform-a-l-9b06-2.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/1" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
