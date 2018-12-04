@@ -12,7 +12,9 @@
       <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
       <mapping pattern="scgi_params" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping ext="allow" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
+      <mapping ext="deny" type="PLAIN_TEXT" />
       <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="realsync" type="PLAIN_TEXT" />
       <mapping ext="ctmpl" type="PLAIN_TEXT" />
