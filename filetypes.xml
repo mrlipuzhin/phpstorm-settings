@@ -15,10 +15,8 @@
       <mapping ext="allow" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
       <mapping ext="deny" type="PLAIN_TEXT" />
-      <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="realsync" type="PLAIN_TEXT" />
       <mapping ext="ctmpl" type="PLAIN_TEXT" />
-      <removed_mapping ext="so" type="UNKNOWN" />
     </extensionMap>
   </component>
 </application>
