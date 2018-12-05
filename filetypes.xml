@@ -6,6 +6,7 @@
       <mapping pattern=".realsync" type="PLAIN_TEXT" />
       <mapping pattern="realsync" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
+      <mapping pattern="off" type="PLAIN_TEXT" />
       <mapping pattern="uwsgi_params" type="PLAIN_TEXT" />
       <mapping pattern="win-utf" type="PLAIN_TEXT" />
       <mapping pattern="old_phones" type="PLAIN_TEXT" />
@@ -15,8 +16,10 @@
       <mapping ext="allow" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
       <mapping ext="deny" type="PLAIN_TEXT" />
+      <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="realsync" type="PLAIN_TEXT" />
       <mapping ext="ctmpl" type="PLAIN_TEXT" />
+      <removed_mapping ext="so" type="UNKNOWN" />
     </extensionMap>
   </component>
 </application>
