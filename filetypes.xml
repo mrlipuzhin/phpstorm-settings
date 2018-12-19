@@ -7,6 +7,7 @@
       <mapping pattern="realsync" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="uwsgi_params" type="PLAIN_TEXT" />
+      <mapping pattern="pre-push" type="PLAIN_TEXT" />
       <mapping pattern="win-utf" type="PLAIN_TEXT" />
       <mapping pattern="old_phones" type="PLAIN_TEXT" />
       <mapping pattern="off" type="PLAIN_TEXT" />
