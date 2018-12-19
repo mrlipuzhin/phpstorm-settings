@@ -5,6 +5,9 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
   </action>
+  <action id="FileChooser.ShowHiddens">
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
