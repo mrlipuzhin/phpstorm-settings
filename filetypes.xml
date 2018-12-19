@@ -7,6 +7,7 @@
       <mapping pattern="realsync" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="uwsgi_params" type="PLAIN_TEXT" />
+      <mapping pattern="hook.sh" type="PLAIN_TEXT" />
       <mapping pattern="pre-push" type="PLAIN_TEXT" />
       <mapping pattern="win-utf" type="PLAIN_TEXT" />
       <mapping pattern="old_phones" type="PLAIN_TEXT" />
@@ -14,6 +15,7 @@
       <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
       <mapping pattern="scgi_params" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="hook" type="PLAIN_TEXT" />
       <mapping ext="allow" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
       <mapping ext="deny" type="PLAIN_TEXT" />
