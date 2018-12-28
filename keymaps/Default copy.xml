@@ -11,6 +11,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="PublishGroup.UploadTo">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
