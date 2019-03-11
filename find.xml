@@ -1,15 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
-    <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
@@ -17,5 +14,6 @@
     <mask>!*.php</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
