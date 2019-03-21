@@ -121,6 +121,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="85ddcff6-ff84-4f9a-a9a4-0383cc08eaa1" name="devbox-nginx" url="http://olymp.local">
+        <fileTransfer host="olymp.local" port="2222" rootFolder="/etc/nginx" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
