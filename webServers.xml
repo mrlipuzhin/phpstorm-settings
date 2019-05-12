@@ -145,6 +145,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="a381edb3-d62f-4445-ba1e-b4f430ac2a0a" name="sandbox" url="http://localhost">
+        <fileTransfer host="localhost" port="3022" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3022" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
