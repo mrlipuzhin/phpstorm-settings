@@ -50,9 +50,9 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="devbox.core" uuid="4ef3d955-7e77-43aa-a2d9-274964e53b39">
-      <driver-ref>mysql.8</driver-ref>
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.1.2:3306</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
