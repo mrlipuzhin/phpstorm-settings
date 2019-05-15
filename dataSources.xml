@@ -14,7 +14,7 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="vertica" uuid="8244d5c8-4fe9-40c2-8ebe-c8c441a74ab3">
+    <data-source source="LOCAL" name="vertica" read-only="true" uuid="8244d5c8-4fe9-40c2-8ebe-c8c441a74ab3">
       <driver-ref>java.sql.Driver</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
