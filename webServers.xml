@@ -153,6 +153,14 @@
           <option name="port" value="3022" />
         </fileTransfer>
       </webServer>
+      <webServer id="69e843f2-106d-451a-ab47-fdfc2c8934ff" name="d-k-3574-4" url="http://192.168.0.93">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
