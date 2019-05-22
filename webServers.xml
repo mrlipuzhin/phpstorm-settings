@@ -169,6 +169,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="fe0c23c2-4c09-4f48-b680-41b8237ec2d1" name="r-c-a79b-1" url="http://192.168.0.93">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/r-c-a79b/1" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
