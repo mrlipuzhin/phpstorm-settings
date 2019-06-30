@@ -193,6 +193,14 @@
           <option name="port" value="3022" />
         </fileTransfer>
       </webServer>
+      <webServer id="19f1a94d-401f-42da-9688-373290694046" name="debserv-root" url="http://192.168.1.36">
+        <fileTransfer host="192.168.1.36" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
