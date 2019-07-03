@@ -43,7 +43,7 @@
   </tool>
   <tool name="devbox-ports" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" />
+      <option name="COMMAND" value="/bin/zsh" />
       <option name="PARAMETERS" value="devbox-ports" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
