@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="asarray" value="public function asArray()&#10;{&#10;    return [&#10;        &#10;    ];&#10;}" description="asArray method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
