@@ -4,6 +4,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="all-payment-systems" type="JSON" />
+      <removed_mapping ext="json" type="JSON" />
       <mapping pattern="off" type="PLAIN_TEXT" />
       <mapping pattern=".realsync" type="PLAIN_TEXT" />
       <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
@@ -25,6 +26,7 @@
       <mapping ext="realsync" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lc" type="PLAIN_TEXT" />
+      <mapping ext="json" type="PLAIN_TEXT" />
       <mapping ext="deny" type="PLAIN_TEXT" />
       <mapping ext="olymp" type="PLAIN_TEXT" />
       <mapping ext="allow" type="PLAIN_TEXT" />
