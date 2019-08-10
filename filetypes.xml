@@ -5,6 +5,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="all-payment-systems" type="JSON" />
       <removed_mapping ext="json" type="JSON" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="off" type="PLAIN_TEXT" />
       <mapping pattern=".realsync" type="PLAIN_TEXT" />
       <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
