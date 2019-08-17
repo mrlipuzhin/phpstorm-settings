@@ -209,8 +209,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="9767fe44-1c71-43a1-8a2f-7d08049a9a5f" name="retropi" url="sftp://192.168.152">
-        <fileTransfer host="192.168.152" port="22" accessType="SFTP">
+      <webServer id="9767fe44-1c71-43a1-8a2f-7d08049a9a5f" name="retropi" url="http://192.168.1.52">
+        <fileTransfer host="192.168.1.52" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
