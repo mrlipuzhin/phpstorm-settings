@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="be6aab0e-d3fb-40a3-83d4-c525f1098618" name="_a-l-9b06-1" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/1" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-1" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
