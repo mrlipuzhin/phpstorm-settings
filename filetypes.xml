@@ -31,6 +31,7 @@
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lc" type="PLAIN_TEXT" />
       <mapping ext="tech" type="PLAIN_TEXT" />
+      <mapping ext="3" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
