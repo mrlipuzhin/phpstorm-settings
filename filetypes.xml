@@ -4,34 +4,38 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="all-payment-systems" type="JSON" />
-      <mapping pattern="off" type="PLAIN_TEXT" />
-      <mapping pattern=".realsync" type="PLAIN_TEXT" />
-      <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="scgi_params" type="PLAIN_TEXT" />
       <mapping pattern="hook" type="PLAIN_TEXT" />
-      <mapping pattern="old_phones" type="PLAIN_TEXT" />
-      <mapping pattern="uwsgi_params" type="PLAIN_TEXT" />
-      <mapping pattern="realsync" type="PLAIN_TEXT" />
-      <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
-      <mapping pattern="pre-push" type="PLAIN_TEXT" />
-      <mapping pattern="win-utf" type="PLAIN_TEXT" />
-      <mapping pattern="default" type="PLAIN_TEXT" />
-      <mapping pattern="hook.sh" type="PLAIN_TEXT" />
+      <mapping pattern="scgi_params" type="PLAIN_TEXT" />
+      <mapping pattern="fastcgi_params" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="hook.sh" type="PLAIN_TEXT" />
+      <mapping pattern=".realsync" type="PLAIN_TEXT" />
+      <mapping pattern="win-utf" type="PLAIN_TEXT" />
+      <mapping pattern="realsync" type="PLAIN_TEXT" />
+      <mapping pattern="pre-push" type="PLAIN_TEXT" />
+      <mapping pattern="uwsgi_params" type="PLAIN_TEXT" />
+      <mapping pattern=".bashrc" type="PLAIN_TEXT" />
+      <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
+      <mapping pattern=".profile" type="PLAIN_TEXT" />
+      <mapping pattern="default" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="off" type="PLAIN_TEXT" />
+      <mapping pattern="old_phones" type="PLAIN_TEXT" />
+      <mapping pattern="" type="PLAIN_TEXT" />
+      <mapping ext="allow" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
-      <mapping ext="ctmpl" type="PLAIN_TEXT" />
-      <mapping ext="tech" type="PLAIN_TEXT" />
-      <mapping ext="types" type="PLAIN_TEXT" />
+      <mapping ext="olymp" type="PLAIN_TEXT" />
+      <mapping ext="deny" type="PLAIN_TEXT" />
       <mapping ext="realsync" type="PLAIN_TEXT" />
+      <mapping ext="ctmpl" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lc" type="PLAIN_TEXT" />
-      <mapping ext="deny" type="PLAIN_TEXT" />
-      <mapping ext="olymp" type="PLAIN_TEXT" />
-      <mapping ext="allow" type="PLAIN_TEXT" />
+      <mapping ext="tech" type="PLAIN_TEXT" />
+      <mapping ext="3" type="PLAIN_TEXT" />
+      <mapping ext="types" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
