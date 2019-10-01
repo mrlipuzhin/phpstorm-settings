@@ -17,16 +17,8 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
-      <webServer id="30ca8c96-9698-4bf7-a6a9-abe783405463" name="t-alipuzhin.olymptrade.com" url="http://t-alipuzhin.olymptrade.com">
-        <fileTransfer host="t-alipuzhin.olymptrade.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/alipuzhin" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="be6aab0e-d3fb-40a3-83d4-c525f1098618" name="_a-l-9b06-1" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/1" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-1" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -50,7 +42,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="8d0a5ccf-9b90-4eb2-ad0f-acd99fed9756" name="_a-l-9b06-2" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/2" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-2/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -58,7 +50,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="29d6e8de-4a19-4da4-9d18-99b7ad611dec" name="a-b-d27f-5" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-b-d27f/5" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-b-d27-f-5" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -66,7 +58,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="4701ae20-9ebe-4404-93a4-42590bf59536" name="a-b-d27-f-3" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-b-d27-f-3" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -89,32 +81,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="3ff2c0c1-dbd7-4c69-94e8-1b00e598769d" name="a-k-650d" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-k-650d/1" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="72fe528a-169b-4356-b617-7f66f75acdbb" name="_a-l-9b06-3" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/3" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="e1d8275f-f19a-442d-a3d3-26ff73585278" name="a-s-856f-3" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-s-856f/3" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="d38b6ea2-382d-47a8-9489-94593a9fca9b" name="a-s-856f-2" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-s-856f/2" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-3" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -130,7 +98,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9caaf79f-acc9-4118-88b6-a8cdf425f5a6" name="_a-l-9b06-5" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/5" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-5" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -138,7 +106,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="b552380f-5a24-4f16-a624-f0b2aa54253c" name="_a-l-9b06-4" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-l-9b06/4" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-l-9b06-4" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -161,24 +129,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="cbeb1d57-55e7-468d-a6ab-8f77c0b59529" name="v-p-f007-4" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/v-p-f007/4" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="fe0c23c2-4c09-4f48-b680-41b8237ec2d1" name="r-c-a79b-1" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/r-c-a79b/1" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="108cd986-3859-4a2b-8c3a-f044e2b6091f" name="a-b-d27f-2" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-b-d27f/2" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-b-d27-f-2" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -202,7 +154,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="8f2ffe02-b5f8-401c-a9ed-6625cb731029" name="a-b-d27-f-1" url="http://192.168.0.93">
-        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/a-b-d27f/1" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/a-b-d27-f-1" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -219,6 +171,30 @@
       </webServer>
       <webServer id="052248b7-eda8-4e22-8bbc-2f4c3bed0997" name="d-i-b21d-1" url="http://192.168.0.93">
         <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/d-i-b21d/1" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="24d30765-5a2f-438b-89ef-cfbc00a64e08" name="d-k-3574-1" url="http://192.168.0.93">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/jenkins_platform/d-k-3574/1" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b4700413-105d-45bb-b3fb-2676001ce985" name="d-k-3574-3" url="http://192.168.0.93">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/olymptrade.com-backend/stage307.tech/d-k-3574-3/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5b649148-0d2a-4d91-a4f2-a2f9e752946b" name="jenkins-home" url="http://192.168.0.93">
+        <fileTransfer host="192.168.0.93" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/alipuzhin" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

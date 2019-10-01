@@ -50,6 +50,7 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="igbinary" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -70,6 +71,7 @@
             <extension name="posix" />
             <extension name="pspell" />
             <extension name="readline" />
+            <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
